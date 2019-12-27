@@ -1,0 +1,1226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar {
+background-color: #000000;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn-black {
+  background-color: #000000;
+}
+
+.slideshow-container img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container_text {
+  margin: 0 auto;
+  width: 540px;
+  max-width: 100%;
+}
+
+.slideshow_text {
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  max-width: 590px;
+  width: 100%;
+}
+
+.slideshow_text h1 {
+  font-size: 6vw;
+  line-height: 100px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.button_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button_details {
+   margin-top: 8vh;
+  background-color: #000;
+  font-size: 1vw;
+  font-weight: 600;
+  width: 150px;
+  max-width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  transition: 0.45s;
+}
+
+.button_details:hover {
+  background-color: #8C4A24;
+  transition: 0.7s;
+}
+
+.button_details:active {
+  background-color: #64969A;
+  transition: 0.1s;
+}
+
+.snowboards_examples {
+  margin: 160px 0;
+}
+
+.container_text2 {
+  margin: 0 auto;
+  width: 620px;
+  max-width: 100%;
+}
+
+.text_center {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.snowboards_examples h2 {
+  font-size: 4vw;
+  margin-bottom: 40px;
+}
+
+.snowboards_examples h4 {
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.snowboards_examples h4:after {
+  content: url(photos/cross.png);
+  height: 32px;
+  max-width: 32px;
+  width: 100%;
+  display: block;
+  margin: 38px auto 0 auto;
+}
+
+.sliders_for_snowboards {
+  max-width: 980px;
+  width: 100%;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.show_prev_snowboard {
+  margin-right: 120px;
+  margin-left: 50px;
+}
+.show_next_snowboard {
+  margin-left: 120px;
+  margin-right: 50px;
+}
+.show_prev_snowboard, .show_next_snowboard {
+  max-height: 250px;
+  opacity: 50%;
+  margin-top: 10%;
+}
+
+.sliders_for_snowboards button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.sliders_for_snowboards button:hover {
+  transition: .5s;
+  transform: scale(1.1);
+}
+
+.snowboards_examples h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+button>img {
+  width:100%;
+}
+
+.about_snowboarding {
+  background: url(photos/photo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 820px;
+  max-width: 100vw;
+  color: #fff;
+}
+
+.container_large {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container_about_snowboarding {
+  padding-top: 140px;
+  max-width: 40vw;
+  width: 100%;
+}
+
+.about_snowboarding h2 {
+  font-size: 4vw;
+  word-wrap: break-word;
+}
+
+.about_snowboarding p:first-of-type {
+  padding-top: 75px;
+}
+
+.about_snowboarding p:last-of-type {
+  padding-top: 48px;
+}
+
+.about_snowboarding p {
+  font-size: 1.3vw;
+  line-height: 35px;
+  word-wrap: break-word;
+}
+
+.features {
+  height: 580px;
+}
+
+.container_featres {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.features h2 {
+  margin-top: 125px;
+  text-align: center;
+}
+
+.features h2:after {
+  content: url(photos/cross.png);
+  height: 32px;
+  max-width: 32px;
+  width: 100%;
+  display: block;
+  margin: 38px auto 0 auto;
+}
+
+.snowboards_articles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 86px;
+}
+
+.article {
+  max-width: 220px;
+  width: 100%;
+}
+
+.article img {
+  height: 160px;
+  max-width: 220px;
+  width: 100%;
+}
+
+.article h4:first-of-type {
+  margin-top: 20px;
+}
+
+.article h4:last-of-type {
+  margin-top: 15px;
+}
+
+.article h4 {
+  font-weight: 400;
+  font-size: 15px;
+}
+footer {
+ background-color: #000;
+ color: #fff;
+ height: auto;
+}
+
+.footer_container {
+  max-width: 80vw;
+  width: 100%;
+  margin: 0 auto;
+}
+input {
+  border: none;
+  padding: 15px;
+
+  max-width: 250px;
+  width: 100%;
+
+}
+.place_for_email {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.button_go {
+  background-color: #C7C7C7;
+  font-size: 17px;
+  font-weight: 700;
+  width: 58px;
+  max-width: 100%;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  transition: 0.7s;
+}
+
+.button_go:active {
+  background-color: #747474;
+  transition: 0.1s;
+
+}
+a {
+  color: #81888D;
+  text-decoration: none;
+  transition: .3s;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.list_of_media {
+  padding-top: 62px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+}
+.list_of_media a {
+  margin: 0 10px;
+}
+
+.facebook {
+  background: url(photos/facebook.png) no-repeat;
+  max-width: 14px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+.twitter {
+  background: url(photos/twitter.png) no-repeat;
+  max-width: 25px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+.instagram{
+  background: url(photos/instagram.png) no-repeat;
+  max-width: 20px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+.pinterest {
+  background: url(photos/pinterest.png) no-repeat;
+  max-width: 20px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+.youtube {
+  background: url(photos/youtube.png) no-repeat;
+  max-width: 45px;
+  width: 100%;
+  height: 21px;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 1100px) {
+
+  .container_large {
+    margin-left: 65px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 190px;
+    max-width: 560px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 3.9vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 73px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 46px;
+  }
+
+  .about_snowboarding p {
+    font-size: 1.6vw;
+    line-height: 33px;
+  }
+
+}
+
+@media (max-width: 1050px) {
+
+  .slideshow_text {
+    top: 25%;
+    max-width: 500px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 95px;
+    letter-spacing: 3.5px;
+  }
+
+  .button_details {
+    margin-top: 5vh;
+    font-size: 12px;
+    width: 145px;
+    height: 48px;
+  }
+
+}
+@media (max-width: 1200px) {
+
+  .snowboards_examples h2 {
+    font-size: 3rem;
+  }
+
+  .snowboards_examples h3, .snowboards_examples h4 {
+    font-size: 1rem;
+  }
+
+}
+@media (max-width: 1000px) {
+
+  .snowboards_examples h2 {
+    font-size: 2.5rem;
+  }
+
+  .snowboards_examples h3, .snowboards_examples h4 {
+    font-size: 0.85rem;
+  }
+
+  .features {
+  height: 570px;
+  }
+
+  .features h2 {
+    font-size: 3.9vw;
+  }
+
+  .snowboards_articles {
+    margin-top: 84px;
+  }
+
+  .article {
+    max-width: 210px;
+  }
+
+  .article img {
+    height: 155px;
+    max-width: 210px;
+  }
+
+  .article h4:first-of-type {
+    margin-top: 20px;
+  }
+
+  .article h4 {
+    font-size: 2vw;
+  }
+
+}
+
+@media (max-width: 950px) {
+
+  .container_large {
+    margin-left: 69px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 180px;
+    max-width: 520px;
+  }
+
+  .about_snowboarding h2 {
+    line-height: 60px;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 68px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 43px;
+  }
+
+  .about_snowboarding p {
+    font-size: 1.79vw;
+    line-height: 33px;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .slideshow_text {
+    top: 25%;
+    max-width: 450px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 80px;
+    letter-spacing: 3px;
+  }
+
+  .button_details {
+    width: 140px;
+    height: 46px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 80px;
+  }
+
+  .snowboards_examples {
+    margin: 140px 0;
+  }
+
+  .snowboards_examples h2 {
+    font-size: 2.4rem;
+  }
+
+  .features {
+    height: auto;
+  }
+
+  .snowboards_articles {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .article {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .article img {
+
+    max-width: 400px;
+    height: auto;
+  }
+
+  .article h4:first-of-type {
+    margin-top: 20px;
+  }
+
+  .article h4:last-of-type {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 830px) {
+
+  .container_large {
+    margin-left: 66px;
+  }
+
+  .container_about_snowboarding {
+    max-width: 480px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 4vw;
+    line-height: 50px;
+  }
+
+  .about_snowboarding p {
+    font-size: 1.8vw;
+    line-height: 33px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .slideshow_text {
+    top: 24%;
+    max-width: 400px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 80px;
+    letter-spacing: 3px;
+  }
+
+  .button_details {
+    margin-top: 3vh;
+    width: 135px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 11px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 70px;
+  }
+
+  .snowboards_examples {
+    margin: 130px 0;
+  }
+
+  .snowboards_examples h2 {
+    font-size: 2.3rem;
+  }
+
+  .features {
+  height: auto;
+  }
+
+  .snowboards_articles {
+    margin-top: 55px;
+  }
+
+  .article img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .article h4:first-of-type {
+    margin-top: 20px;
+  }
+
+  .article h4:last-of-type {
+    margin-bottom: 20px;
+  }
+
+}
+@media (max-width: 750px) {
+
+  .snowboards_examples h2 {
+    font-size: 2.1rem;
+  }
+
+  .container_large {
+    margin-left: 66px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 170px;
+    max-width: 460px;
+  }
+  .about_snowboarding h2 {
+    font-size: 4.2vw;
+    line-height: 50px;
+  }
+
+  .about_snowboarding p {
+    font-size: 1.99vw;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .slideshow_text {
+    top: 22%;
+    max-width: 340px;
+  }
+
+  .button_details {
+    margin-top: 2vh;
+    width: 130px;
+    height: 43px;
+    line-height: 43px;
+  }
+
+  .snowboards_examples h3, .snowboards_examples h4 {
+    font-size: 0.79rem;
+  }
+
+  .snowboards_examples {
+    margin: 120px 0;
+  }
+}
+
+@media (max-width: 680px) {
+
+  .show_prev_snowboard, .show_next_snowboard {
+    display: none;
+  }
+
+  .sliders_for_snowboards {
+    max-width: 500px;
+    width: 100%;
+    margin: 80px auto 0 auto;
+    display: flex;
+  }
+
+  .show_selected_snowboard {
+    max-width: 100px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 50px;
+  }
+
+  #show_prev_btn {
+    margin-right: 50px;
+  }
+
+  #show_next_btn {
+    margin-left: 50px;
+  }
+
+  .container_large {
+    margin-left: 60px;
+  }
+
+  .container_about_snowboarding {
+    max-width: 450px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 4.3vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 66px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 41px;
+  }
+
+  .about_snowboarding p {
+    font-size: 2.1vw;
+  }
+}
+@media (max-width: 600px) {
+
+  .slideshow_text {
+    top: 18%;
+    max-width: 295px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 60px;
+    letter-spacing: 3px;
+  }
+
+  .button_details {
+    margin-top: 1vh;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+  }
+
+  .snowboards_examples {
+    margin: 110px 0;
+  }
+
+  .container_large {
+    margin-left: 50px;
+  }
+
+  .container_about_snowboarding {
+    max-width: 410px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 4.4vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 64px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 39px;
+  }
+
+  .about_snowboarding p {
+    font-size: 2.3vw;
+  }
+
+  .features h2 {
+    font-size: 4vw;
+  }
+
+  .snowboards_articles {
+    margin-top: 80px;
+  }
+
+  .article {
+    max-width: 250px;
+  }
+
+  .article img {
+    max-width: 250px;
+  }
+
+  .article h4 {
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .snowboards_examples h2 {
+    font-size: 1.9rem;
+  }
+
+  .container_large {
+    margin-left: 45px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 165px;
+    max-width: 390px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 4.5vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 62px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 37px;
+  }
+
+  .about_snowboarding p {
+    font-size: 2.4vw;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .slideshow_text {
+    max-width: 280px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 55px;
+    letter-spacing: 2.8px;
+  }
+
+  .button_details {
+    width: 105px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .snowboards_examples h3, .snowboards_examples h4 {
+    font-size: 0.7rem;
+  }
+
+  .snowboards_examples {
+    margin: 100px 0;
+  }
+
+  .container_large {
+    margin-left: 40px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 160px;
+    max-width: 350px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 5.2vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 60px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 35px;
+  }
+
+  .about_snowboarding p {
+    font-size: 2.7vw;
+  }
+
+  footer {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 470px) {
+
+  .container_large {
+    margin-left: 35px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 155px;
+    max-width: 330px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 5.4vw;
+  }
+
+  .about_snowboarding p {
+    font-size: 2.9vw;
+  }
+
+  .features h2 {
+    font-size: 4.5vw;
+  }
+
+  .snowboards_articles {
+    margin-top: 60px;
+  }
+
+  .article h4:first-of-type {
+    margin-top: 15px;
+  }
+
+  .article h4 {
+    font-size: 2.6vw;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .slideshow_text {
+    max-width: 250px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 50px;
+    letter-spacing: 2.5px;
+  }
+
+  .button_details {
+    width: 95px;
+    height: 33px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .slideshow_text {
+    max-width: 240px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 45px;
+    letter-spacing: 2.4px;
+  }
+
+  .button_details {
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 9.5px;
+  }
+
+  .show_selected_snowboard {
+    max-width: 90px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 40px;
+  }
+
+  #show_prev_btn {
+    margin-right: 40px;
+  }
+
+  #show_next_btn {
+    margin-left: 40px;
+  }
+
+  .snowboards_examples {
+    margin: 90px 0;
+  }
+
+  .snowboards_examples h2 {
+    font-size: 1.8rem;
+  }
+
+  .container_large {
+    margin-left: 33px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 150px;
+    max-width: 300px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 5.6vw;
+  }
+
+  .about_snowboarding p {
+    font-size: 3.3vw;
+  }
+
+  .features h2 {
+    font-size: 4.9vw;
+    margin-top: 110px;
+  }
+
+  .snowboards_articles {
+    margin-top: 55px;
+  }
+
+  .article {
+    max-width: 245px;
+  }
+
+  .article img {
+    max-width: 245px;
+  }
+
+  .article h4 {
+    font-size: 2.8vw;
+  }
+
+  input {
+    padding: 10px;
+    max-width: 200px;
+  }
+  .place_for_email {
+    margin-top: 20px;
+  }
+  .button_go {
+    width: 50px;
+    line-height: 40px;
+
+  }
+}
+
+@media (max-width: 350px) {
+
+  .slideshow_text {
+    max-width: 200px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
+
+  .button_details {
+    width: 85px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .snowboards_examples h2 {
+    font-size: 1.6rem;
+  }
+
+  .container_large {
+    margin-left: 25px;
+  }
+
+  .container_about_snowboarding {
+    max-width: 290px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 5.8vw;
+  }
+
+  .about_snowboarding p {
+    font-size: 3.6vw;
+  }
+}
+
+@media (max-width: 325px) {
+
+  .container_large {
+    margin-left: 20px;
+  }
+
+  .container_about_snowboarding {
+    max-width: 270px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 6.5vw;
+  }
+
+  .about_snowboarding p {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .slideshow_text {
+    max-width: 170px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 35px;
+    letter-spacing: 1.8px;
+  }
+
+  .button_details {
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 8px;
+  }
+
+  .show_selected_snowboard {
+    max-width: 80px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 30px;
+  }
+
+  #show_prev_btn {
+    margin-right: 30px;
+  }
+
+  #show_next_btn {
+    margin-left: 30px;
+  }
+
+  .snowboards_examples {
+    margin: 80px 0;
+  }
+
+  .container_about_snowboarding {
+    max-width: 250px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 6.7vw;
+  }
+
+  .about_snowboarding p {
+    font-size: 4.2vw;
+  }
+}
+
+@media (max-width: 250px) {
+
+  .slideshow_text {
+    max-width: 150px;
+  }
+
+  .slideshow_text h1 {
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
+
+  .button_details {
+    width: 60px;
+  }
+
+  .show_selected_snowboard {
+    max-width: 70px;
+  }
+
+  #show_prev_btn, #show_next_btn {
+    max-width: 25px;
+  }
+
+  #show_prev_btn {
+    margin-right: 25px;
+  }
+
+  #show_next_btn {
+    margin-left: 25px;
+  }
+
+  .snowboards_examples {
+    margin: 50px 0;
+  }
+
+  .snowboards_examples h2 {
+    font-size: 1.3rem;
+  }
+
+  .container_large {
+    margin-left: 15px;
+  }
+
+  .container_about_snowboarding {
+    padding-top: 120px;
+    max-width: 210px;
+  }
+
+  .about_snowboarding h2 {
+    font-size: 7vw;
+  }
+
+  .about_snowboarding p:first-of-type {
+    padding-top: 50px;
+  }
+
+  .about_snowboarding p:last-of-type {
+    padding-top: 25px;
+  }
+
+  .about_snowboarding p {
+    font-size: 4.8vw;
+  }
+}
